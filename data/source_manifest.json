@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-12T14:12:29.148048+00:00",
+  "status": "complete",
+  "sources": [
+    {
+      "id": "letter_grade",
+      "name": "TDOE 2024-25 School Letter Grades",
+      "source_url": "https://www.tn.gov/content/dam/tn/education/data/2024-25_A-F_Letter_Grade_File.xlsx",
+      "discovery_url": "https://www.tn.gov/education/districts/federal-programs-and-oversight/data/data-downloads.html",
+      "academic_year": "2024-25",
+      "retrieved_at": "2026-10-12T14:04:54.323851+00:00",
+      "status": "cached",
+      "records_parsed": 1905,
+      "cached_file": "data\\cache\\letter_grade_2024-25.xlsx"
+    },
+    {
+      "id": "tvaas",
+      "name": "TDOE 2024-25 Schoolwide TVAAS Composite",
+      "source_url": "https://www.tn.gov/content/dam/tn/education/data/2025_tvaas_school_composite.xlsx",
+      "discovery_url": "https://www.tn.gov/education/districts/federal-programs-and-oversight/data/data-downloads.html",
+      "academic_year": "2024-25",
+      "retrieved_at": "2026-10-12T14:04:58.205121+00:00",
+      "status": "cached",
+      "records_parsed": 1733,
+      "cached_file": "data\\cache\\tvaas_2024-25.xlsx"
+    },
+    {
+      "id": "assessment",
+      "name": "TDOE 2025 school accountability proficiency",
+      "source_url": "https://www.tn.gov/content/dam/tn/education/data/school_release_file_suppressed_2025.xlsx",
+      "discovery_url": "https://www.tn.gov/education/districts/federal-programs-and-oversight/data/data-downloads.html",
+      "academic_year": "2025",
+      "retrieved_at": "2026-10-12T14:04:59.829462+00:00",
+      "status": "cached",
+      "records_parsed": 3656,
+      "cached_file": "data\\cache\\assessment_2025.xlsx"
+    },
+    {
+      "id": "membership",
+      "name": "TDOE 2024-25 School Profile (enrollment and grade span)",
+      "source_url": "https://www.tn.gov/content/dam/tn/education/data/school-profile-2024-2025.xlsx",
+      "discovery_url": "https://www.tn.gov/education/districts/federal-programs-and-oversight/data/data-downloads.html",
+      "academic_year": "2024-25",
+      "retrieved_at": "2026-10-12T14:05:14.946430+00:00",
+      "status": "cached",
+      "records_parsed": 3659,
+      "cached_file": "data\\cache\\membership_2024-25.xlsx"
+    },
+    {
+      "id": "nces_locations",
+      "name": "NCES EDGE 2023-24 Public School Locations",
+      "academic_year": "2023-24",
+      "source_url": "https://nces.ed.gov/opengis/rest/services/K12_School_Locations/EDGE_GEOCODE_PUBLICSCH_2324/MapServer/0/query",
+      "year": "2023-24",
+      "retrieved_at": "2026-10-12T14:05:45.177081+00:00",
+      "records": 173,
+      "status": "cached"
+    },
+    {
+      "id": "census_zcta",
+      "name": "US Census 2024 ZCTA Gazetteer",
+      "academic_year": "2024",
+      "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_zcta_national.zip",
+      "year": "2024",
+      "retrieved_at": "2026-10-12T14:12:49.400341+00:00",
+      "records": 385,
+      "status": "cached"
+    }
+  ],
+  "policy": "Production output contains only source-verified records; no demo data."
+}

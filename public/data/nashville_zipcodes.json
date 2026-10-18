@@ -1,0 +1,3082 @@
+{
+  "37010": {
+    "lat": 36.571781,
+    "lon": -87.108705,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37012": {
+    "lat": 36.07111,
+    "lon": -86.005649,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37013": {
+    "lat": 36.052592,
+    "lon": -86.630295,
+    "name": "Antioch",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37014": {
+    "lat": 35.873015,
+    "lon": -86.632923,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37015": {
+    "lat": 36.297457,
+    "lon": -87.091738,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37016": {
+    "lat": 35.963556,
+    "lon": -86.113618,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37018": {
+    "lat": 35.6314,
+    "lon": -86.210955,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37019": {
+    "lat": 35.390902,
+    "lon": -86.709331,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37020": {
+    "lat": 35.634389,
+    "lon": -86.407093,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37022": {
+    "lat": 36.514582,
+    "lon": -86.317038,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37023": {
+    "lat": 36.592456,
+    "lon": -87.782744,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37025": {
+    "lat": 35.952659,
+    "lon": -87.308467,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37026": {
+    "lat": 35.69578,
+    "lon": -86.107456,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37027": {
+    "lat": 35.999288,
+    "lon": -86.785062,
+    "name": "Brentwood / Davidson County edge",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37028": {
+    "lat": 36.628017,
+    "lon": -87.852264,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37029": {
+    "lat": 36.043084,
+    "lon": -87.268786,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37030": {
+    "lat": 36.271671,
+    "lon": -85.942372,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37031": {
+    "lat": 36.377463,
+    "lon": -86.301172,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37032": {
+    "lat": 36.525153,
+    "lon": -87.016524,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37033": {
+    "lat": 35.744615,
+    "lon": -87.557839,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37034": {
+    "lat": 35.637125,
+    "lon": -86.694765,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37035": {
+    "lat": 36.381108,
+    "lon": -87.133983,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37036": {
+    "lat": 36.234982,
+    "lon": -87.261263,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37037": {
+    "lat": 35.703083,
+    "lon": -86.351238,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37040": {
+    "lat": 36.522319,
+    "lon": -87.327933,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37042": {
+    "lat": 36.569339,
+    "lon": -87.411845,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37043": {
+    "lat": 36.490572,
+    "lon": -87.240797,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37046": {
+    "lat": 35.781852,
+    "lon": -86.70075,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37047": {
+    "lat": 35.312921,
+    "lon": -86.831904,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37048": {
+    "lat": 36.49042,
+    "lon": -86.591086,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37049": {
+    "lat": 36.561975,
+    "lon": -86.682138,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37050": {
+    "lat": 36.374244,
+    "lon": -87.630844,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37051": {
+    "lat": 36.304272,
+    "lon": -87.414042,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37052": {
+    "lat": 36.37258,
+    "lon": -87.407441,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37055": {
+    "lat": 36.077209,
+    "lon": -87.442803,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37057": {
+    "lat": 36.418109,
+    "lon": -86.029944,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37058": {
+    "lat": 36.444038,
+    "lon": -87.876678,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37059": {
+    "lat": 35.984992,
+    "lon": -85.90307,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37060": {
+    "lat": 35.749229,
+    "lon": -86.634283,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37061": {
+    "lat": 36.276545,
+    "lon": -87.66302,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37062": {
+    "lat": 35.990294,
+    "lon": -87.135646,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37064": {
+    "lat": 35.884862,
+    "lon": -86.954138,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37066": {
+    "lat": 36.398757,
+    "lon": -86.45554,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37067": {
+    "lat": 35.912204,
+    "lon": -86.768843,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37069": {
+    "lat": 35.984319,
+    "lon": -86.902292,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37072": {
+    "lat": 36.35214,
+    "lon": -86.746651,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37073": {
+    "lat": 36.432642,
+    "lon": -86.817152,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37074": {
+    "lat": 36.426041,
+    "lon": -86.1529,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37075": {
+    "lat": 36.339969,
+    "lon": -86.607922,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37076": {
+    "lat": 36.145176,
+    "lon": -86.576636,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37078": {
+    "lat": 35.903693,
+    "lon": -87.774514,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37079": {
+    "lat": 36.464769,
+    "lon": -87.648093,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37080": {
+    "lat": 36.332761,
+    "lon": -86.916886,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37082": {
+    "lat": 36.094872,
+    "lon": -87.115266,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37083": {
+    "lat": 36.537757,
+    "lon": -86.00096,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37085": {
+    "lat": 35.953078,
+    "lon": -86.279107,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37086": {
+    "lat": 36.022237,
+    "lon": -86.559384,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37087": {
+    "lat": 36.263852,
+    "lon": -86.269244,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37090": {
+    "lat": 36.115439,
+    "lon": -86.297637,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37091": {
+    "lat": 35.489244,
+    "lon": -86.767472,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37095": {
+    "lat": 35.965928,
+    "lon": -85.961077,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37096": {
+    "lat": 35.612943,
+    "lon": -87.87101,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37097": {
+    "lat": 35.779941,
+    "lon": -87.823417,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37098": {
+    "lat": 35.871459,
+    "lon": -87.307846,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37101": {
+    "lat": 36.078905,
+    "lon": -87.62675,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37110": {
+    "lat": 35.64509,
+    "lon": -85.741252,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37115": {
+    "lat": 36.255279,
+    "lon": -86.698667,
+    "name": "Madison",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37118": {
+    "lat": 35.925673,
+    "lon": -86.189014,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37122": {
+    "lat": 36.178378,
+    "lon": -86.486539,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37127": {
+    "lat": 35.779478,
+    "lon": -86.327234,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37128": {
+    "lat": 35.803224,
+    "lon": -86.474647,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37129": {
+    "lat": 35.929834,
+    "lon": -86.450822,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37130": {
+    "lat": 35.881689,
+    "lon": -86.318747,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37132": {
+    "lat": 35.848732,
+    "lon": -86.362829,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37134": {
+    "lat": 35.992741,
+    "lon": -87.948093,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37135": {
+    "lat": 35.915789,
+    "lon": -86.676587,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37137": {
+    "lat": 35.884173,
+    "lon": -87.505349,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37138": {
+    "lat": 36.237708,
+    "lon": -86.60703,
+    "name": "Old Hickory",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37140": {
+    "lat": 35.863435,
+    "lon": -87.652441,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37141": {
+    "lat": 36.614476,
+    "lon": -86.698935,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37142": {
+    "lat": 36.410966,
+    "lon": -87.509666,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37143": {
+    "lat": 36.122529,
+    "lon": -87.027133,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37144": {
+    "lat": 35.305107,
+    "lon": -86.655879,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37145": {
+    "lat": 36.380909,
+    "lon": -85.917012,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37146": {
+    "lat": 36.404614,
+    "lon": -87.032372,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37148": {
+    "lat": 36.576658,
+    "lon": -86.497813,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37149": {
+    "lat": 35.808727,
+    "lon": -86.193158,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37150": {
+    "lat": 36.541483,
+    "lon": -85.81041,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37151": {
+    "lat": 36.309201,
+    "lon": -86.04302,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37153": {
+    "lat": 35.764477,
+    "lon": -86.55531,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37160": {
+    "lat": 35.455746,
+    "lon": -86.48479,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37165": {
+    "lat": 36.29113,
+    "lon": -87.475439,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37166": {
+    "lat": 35.917978,
+    "lon": -85.786903,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37167": {
+    "lat": 35.962828,
+    "lon": -86.529684,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37171": {
+    "lat": 36.369418,
+    "lon": -87.310858,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37172": {
+    "lat": 36.548385,
+    "lon": -86.849451,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37174": {
+    "lat": 35.719255,
+    "lon": -86.898188,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37175": {
+    "lat": 36.32426,
+    "lon": -87.892851,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37178": {
+    "lat": 36.323791,
+    "lon": -87.790436,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37179": {
+    "lat": 35.812518,
+    "lon": -86.91003,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37180": {
+    "lat": 35.621483,
+    "lon": -86.575353,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37181": {
+    "lat": 36.244378,
+    "lon": -87.505893,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37183": {
+    "lat": 35.505256,
+    "lon": -86.287376,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37184": {
+    "lat": 36.086788,
+    "lon": -86.145212,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37185": {
+    "lat": 36.062922,
+    "lon": -87.865036,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37186": {
+    "lat": 36.596738,
+    "lon": -86.221711,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37187": {
+    "lat": 36.144148,
+    "lon": -87.197886,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37188": {
+    "lat": 36.480499,
+    "lon": -86.680962,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37189": {
+    "lat": 36.278598,
+    "lon": -86.831464,
+    "name": "Whites Creek",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37190": {
+    "lat": 35.823091,
+    "lon": -86.042159,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37191": {
+    "lat": 36.505841,
+    "lon": -87.530104,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37201": {
+    "lat": 36.166986,
+    "lon": -86.77832,
+    "name": "Downtown Nashville",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37203": {
+    "lat": 36.149775,
+    "lon": -86.789146,
+    "name": "Midtown Nashville",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37204": {
+    "lat": 36.106676,
+    "lon": -86.774575,
+    "name": "Green Hills",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37205": {
+    "lat": 36.113187,
+    "lon": -86.870443,
+    "name": "Belle Meade",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37206": {
+    "lat": 36.179319,
+    "lon": -86.731083,
+    "name": "East Nashville",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37207": {
+    "lat": 36.232473,
+    "lon": -86.777342,
+    "name": "North Nashville",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37208": {
+    "lat": 36.177546,
+    "lon": -86.809518,
+    "name": "Germantown",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37209": {
+    "lat": 36.150656,
+    "lon": -86.959839,
+    "name": "Sylvan Park",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37210": {
+    "lat": 36.149248,
+    "lon": -86.733016,
+    "name": "South Nashville",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37211": {
+    "lat": 36.067017,
+    "lon": -86.723419,
+    "name": "Nashville South",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37212": {
+    "lat": 36.133773,
+    "lon": -86.801688,
+    "name": "Vanderbilt",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37213": {
+    "lat": 36.167221,
+    "lon": -86.768181,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37214": {
+    "lat": 36.169038,
+    "lon": -86.662565,
+    "name": "Donelson",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37215": {
+    "lat": 36.081955,
+    "lon": -86.834904,
+    "name": "Green Hills",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37216": {
+    "lat": 36.215017,
+    "lon": -86.726911,
+    "name": "Inglewood",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37217": {
+    "lat": 36.108666,
+    "lon": -86.656722,
+    "name": "Antioch",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37218": {
+    "lat": 36.171353,
+    "lon": -86.918161,
+    "name": "Bordeaux",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37219": {
+    "lat": 36.166282,
+    "lon": -86.782951,
+    "name": "Downtown Nashville",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37220": {
+    "lat": 36.068447,
+    "lon": -86.793127,
+    "name": "Oak Hill",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37221": {
+    "lat": 36.059241,
+    "lon": -86.972312,
+    "name": "Bellevue",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": true
+  },
+  "37228": {
+    "lat": 36.19693,
+    "lon": -86.803373,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37232": {
+    "lat": 36.141117,
+    "lon": -86.802888,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37238": {
+    "lat": 36.165697,
+    "lon": -86.779462,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37301": {
+    "lat": 35.417244,
+    "lon": -85.795212,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37302": {
+    "lat": 35.015703,
+    "lon": -85.021748,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37303": {
+    "lat": 35.442594,
+    "lon": -84.639736,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37305": {
+    "lat": 35.457963,
+    "lon": -85.702038,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37306": {
+    "lat": 35.096807,
+    "lon": -86.191801,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37307": {
+    "lat": 35.164958,
+    "lon": -84.626256,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37308": {
+    "lat": 35.342635,
+    "lon": -84.993756,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37309": {
+    "lat": 35.301834,
+    "lon": -84.741456,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37310": {
+    "lat": 35.252525,
+    "lon": -84.710066,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37311": {
+    "lat": 35.104016,
+    "lon": -84.920828,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37312": {
+    "lat": 35.226009,
+    "lon": -84.874479,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37313": {
+    "lat": 35.376389,
+    "lon": -85.695496,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37315": {
+    "lat": 35.047214,
+    "lon": -85.051644,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37316": {
+    "lat": 35.001661,
+    "lon": -84.729673,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37317": {
+    "lat": 35.031001,
+    "lon": -84.443056,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37318": {
+    "lat": 35.178719,
+    "lon": -85.980014,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37321": {
+    "lat": 35.502103,
+    "lon": -85.008024,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37322": {
+    "lat": 35.501959,
+    "lon": -84.825071,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37323": {
+    "lat": 35.096183,
+    "lon": -84.816533,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37324": {
+    "lat": 35.239754,
+    "lon": -85.987165,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37325": {
+    "lat": 35.253065,
+    "lon": -84.604887,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37326": {
+    "lat": 35.040252,
+    "lon": -84.383286,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37327": {
+    "lat": 35.416267,
+    "lon": -85.394408,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37328": {
+    "lat": 35.036942,
+    "lon": -86.357374,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37329": {
+    "lat": 35.391992,
+    "lon": -84.460149,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37330": {
+    "lat": 35.279637,
+    "lon": -86.130603,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37331": {
+    "lat": 35.31617,
+    "lon": -84.535776,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37332": {
+    "lat": 35.60059,
+    "lon": -84.949548,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37333": {
+    "lat": 35.148414,
+    "lon": -84.35978,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37334": {
+    "lat": 35.165417,
+    "lon": -86.5796,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37335": {
+    "lat": 35.068898,
+    "lon": -86.403992,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37336": {
+    "lat": 35.308843,
+    "lon": -84.931512,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37337": {
+    "lat": 35.787056,
+    "lon": -84.850664,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37338": {
+    "lat": 35.429787,
+    "lon": -85.209519,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37339": {
+    "lat": 35.373851,
+    "lon": -85.632211,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37340": {
+    "lat": 35.021988,
+    "lon": -85.519895,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37341": {
+    "lat": 35.219931,
+    "lon": -85.073002,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37342": {
+    "lat": 35.383549,
+    "lon": -85.946858,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37343": {
+    "lat": 35.166587,
+    "lon": -85.212257,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37345": {
+    "lat": 35.016829,
+    "lon": -86.203041,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37347": {
+    "lat": 35.063468,
+    "lon": -85.613418,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37348": {
+    "lat": 35.121827,
+    "lon": -86.430786,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37350": {
+    "lat": 34.994485,
+    "lon": -85.351577,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37351": {
+    "lat": 35.100285,
+    "lon": -85.260363,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37352": {
+    "lat": 35.27752,
+    "lon": -86.353027,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37353": {
+    "lat": 35.12286,
+    "lon": -84.985492,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37354": {
+    "lat": 35.506343,
+    "lon": -84.347404,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37355": {
+    "lat": 35.509287,
+    "lon": -86.079287,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37356": {
+    "lat": 35.228878,
+    "lon": -85.823694,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37357": {
+    "lat": 35.593909,
+    "lon": -85.918342,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37359": {
+    "lat": 35.204342,
+    "lon": -86.403866,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37360": {
+    "lat": 35.437578,
+    "lon": -86.254328,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37361": {
+    "lat": 35.087864,
+    "lon": -84.656749,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37362": {
+    "lat": 35.031284,
+    "lon": -84.680857,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37363": {
+    "lat": 35.121041,
+    "lon": -85.0556,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37365": {
+    "lat": 35.368696,
+    "lon": -85.516325,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37366": {
+    "lat": 35.338856,
+    "lon": -85.830003,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37367": {
+    "lat": 35.619509,
+    "lon": -85.2263,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37369": {
+    "lat": 35.205589,
+    "lon": -84.464366,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37370": {
+    "lat": 35.359048,
+    "lon": -84.700606,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37373": {
+    "lat": 35.407459,
+    "lon": -85.092816,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37374": {
+    "lat": 35.164983,
+    "lon": -85.661818,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37375": {
+    "lat": 35.150451,
+    "lon": -85.89042,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37376": {
+    "lat": 35.047377,
+    "lon": -85.958393,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37377": {
+    "lat": 35.212136,
+    "lon": -85.362333,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37379": {
+    "lat": 35.284581,
+    "lon": -85.194872,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37380": {
+    "lat": 35.070937,
+    "lon": -85.754605,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37381": {
+    "lat": 35.68699,
+    "lon": -84.877387,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37383": {
+    "lat": 35.211405,
+    "lon": -85.913222,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37385": {
+    "lat": 35.336793,
+    "lon": -84.228286,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37387": {
+    "lat": 35.27425,
+    "lon": -85.720584,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37388": {
+    "lat": 35.351487,
+    "lon": -86.198185,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37391": {
+    "lat": 35.093235,
+    "lon": -84.35392,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37394": {
+    "lat": 35.539186,
+    "lon": -85.860646,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37396": {
+    "lat": 35.001888,
+    "lon": -85.503458,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37397": {
+    "lat": 35.207609,
+    "lon": -85.517909,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37398": {
+    "lat": 35.181164,
+    "lon": -86.13836,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37402": {
+    "lat": 35.046805,
+    "lon": -85.316289,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37403": {
+    "lat": 35.048259,
+    "lon": -85.294362,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37404": {
+    "lat": 35.028234,
+    "lon": -85.273258,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37405": {
+    "lat": 35.129933,
+    "lon": -85.382836,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37406": {
+    "lat": 35.073134,
+    "lon": -85.245571,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37407": {
+    "lat": 35.001943,
+    "lon": -85.289724,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37408": {
+    "lat": 35.030816,
+    "lon": -85.311638,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37409": {
+    "lat": 35.010262,
+    "lon": -85.335905,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37410": {
+    "lat": 35.001899,
+    "lon": -85.31422,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37411": {
+    "lat": 35.026581,
+    "lon": -85.230237,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37412": {
+    "lat": 34.997437,
+    "lon": -85.227199,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37415": {
+    "lat": 35.124725,
+    "lon": -85.281199,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37416": {
+    "lat": 35.098865,
+    "lon": -85.157005,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37419": {
+    "lat": 35.051568,
+    "lon": -85.421089,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37421": {
+    "lat": 35.027473,
+    "lon": -85.153604,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37450": {
+    "lat": 35.048966,
+    "lon": -85.312169,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37601": {
+    "lat": 36.33825,
+    "lon": -82.318084,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37604": {
+    "lat": 36.299242,
+    "lon": -82.383044,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37614": {
+    "lat": 36.300978,
+    "lon": -82.367398,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37615": {
+    "lat": 36.398218,
+    "lon": -82.452386,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37616": {
+    "lat": 36.222507,
+    "lon": -82.7516,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37617": {
+    "lat": 36.52449,
+    "lon": -82.365651,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37618": {
+    "lat": 36.460339,
+    "lon": -82.208744,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37620": {
+    "lat": 36.549613,
+    "lon": -82.09404,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37640": {
+    "lat": 36.326824,
+    "lon": -81.974686,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37641": {
+    "lat": 36.199887,
+    "lon": -82.663513,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37642": {
+    "lat": 36.53133,
+    "lon": -82.72694,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37643": {
+    "lat": 36.370513,
+    "lon": -82.122288,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37645": {
+    "lat": 36.562766,
+    "lon": -82.662455,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37650": {
+    "lat": 36.087789,
+    "lon": -82.468573,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37656": {
+    "lat": 36.399971,
+    "lon": -82.630786,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37657": {
+    "lat": 36.017238,
+    "lon": -82.560518,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37658": {
+    "lat": 36.260442,
+    "lon": -82.151596,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37659": {
+    "lat": 36.279849,
+    "lon": -82.506119,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37660": {
+    "lat": 36.52686,
+    "lon": -82.571968,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37663": {
+    "lat": 36.463015,
+    "lon": -82.488724,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37664": {
+    "lat": 36.508113,
+    "lon": -82.510198,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37665": {
+    "lat": 36.579483,
+    "lon": -82.573101,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37680": {
+    "lat": 36.574631,
+    "lon": -81.725538,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37681": {
+    "lat": 36.258014,
+    "lon": -82.6206,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37682": {
+    "lat": 36.300321,
+    "lon": -82.291672,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37683": {
+    "lat": 36.453006,
+    "lon": -81.822364,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37686": {
+    "lat": 36.440209,
+    "lon": -82.348811,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37687": {
+    "lat": 36.178723,
+    "lon": -82.097005,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37688": {
+    "lat": 36.545444,
+    "lon": -81.882879,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37690": {
+    "lat": 36.25121,
+    "lon": -82.559009,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37691": {
+    "lat": 36.36791,
+    "lon": -81.755247,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37692": {
+    "lat": 36.184591,
+    "lon": -82.30414,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37694": {
+    "lat": 36.383788,
+    "lon": -82.278722,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37701": {
+    "lat": 35.791709,
+    "lon": -83.987225,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37705": {
+    "lat": 36.22688,
+    "lon": -84.009714,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37708": {
+    "lat": 36.330558,
+    "lon": -83.317142,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37709": {
+    "lat": 36.166501,
+    "lon": -83.665,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37710": {
+    "lat": 36.158033,
+    "lon": -84.317712,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37711": {
+    "lat": 36.281355,
+    "lon": -83.045426,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37713": {
+    "lat": 36.081457,
+    "lon": -83.134285,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37714": {
+    "lat": 36.230864,
+    "lon": -84.254168,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37715": {
+    "lat": 36.553208,
+    "lon": -83.958942,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37716": {
+    "lat": 36.100883,
+    "lon": -84.168691,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37719": {
+    "lat": 36.021862,
+    "lon": -84.428085,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37721": {
+    "lat": 36.130591,
+    "lon": -83.814869,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37722": {
+    "lat": 35.815156,
+    "lon": -83.201096,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37723": {
+    "lat": 35.97043,
+    "lon": -84.813656,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37724": {
+    "lat": 36.548535,
+    "lon": -83.710257,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37725": {
+    "lat": 35.997639,
+    "lon": -83.393303,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37726": {
+    "lat": 36.188121,
+    "lon": -84.810269,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37727": {
+    "lat": 35.885101,
+    "lon": -83.022989,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37729": {
+    "lat": 36.514122,
+    "lon": -84.032754,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37730": {
+    "lat": 36.56839,
+    "lon": -83.973561,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37731": {
+    "lat": 36.548667,
+    "lon": -83.009063,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37732": {
+    "lat": 36.327959,
+    "lon": -84.628235,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37733": {
+    "lat": 36.356736,
+    "lon": -84.695035,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37737": {
+    "lat": 35.761416,
+    "lon": -84.120173,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37738": {
+    "lat": 35.671291,
+    "lon": -83.476474,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37742": {
+    "lat": 35.675844,
+    "lon": -84.179246,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37743": {
+    "lat": 36.068327,
+    "lon": -82.855697,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37745": {
+    "lat": 36.276299,
+    "lon": -82.831197,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37748": {
+    "lat": 35.945373,
+    "lon": -84.516366,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37752": {
+    "lat": 36.575959,
+    "lon": -83.547391,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37753": {
+    "lat": 35.822812,
+    "lon": -83.098,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37754": {
+    "lat": 36.139099,
+    "lon": -84.029801,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37755": {
+    "lat": 36.422783,
+    "lon": -84.532704,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37756": {
+    "lat": 36.301631,
+    "lon": -84.407038,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37757": {
+    "lat": 36.261396,
+    "lon": -84.105815,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37760": {
+    "lat": 36.103764,
+    "lon": -83.466311,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37762": {
+    "lat": 36.576416,
+    "lon": -84.119247,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37763": {
+    "lat": 35.823448,
+    "lon": -84.488177,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37764": {
+    "lat": 35.970346,
+    "lon": -83.616642,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37765": {
+    "lat": 36.572344,
+    "lon": -83.058614,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37766": {
+    "lat": 36.398375,
+    "lon": -84.073032,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37769": {
+    "lat": 36.21785,
+    "lon": -84.155468,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37770": {
+    "lat": 36.152416,
+    "lon": -84.641827,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37771": {
+    "lat": 35.838499,
+    "lon": -84.316382,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37772": {
+    "lat": 35.793377,
+    "lon": -84.212106,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37774": {
+    "lat": 35.72913,
+    "lon": -84.358961,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37777": {
+    "lat": 35.822632,
+    "lon": -84.052409,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37779": {
+    "lat": 36.210942,
+    "lon": -83.757913,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37801": {
+    "lat": 35.671704,
+    "lon": -84.080473,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37803": {
+    "lat": 35.660842,
+    "lon": -83.981389,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37804": {
+    "lat": 35.792283,
+    "lon": -83.893161,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37806": {
+    "lat": 36.084693,
+    "lon": -83.727986,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37807": {
+    "lat": 36.259656,
+    "lon": -83.82599,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37809": {
+    "lat": 36.156693,
+    "lon": -83.038092,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37810": {
+    "lat": 36.177664,
+    "lon": -83.10196,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37811": {
+    "lat": 36.345957,
+    "lon": -83.212268,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37813": {
+    "lat": 36.175136,
+    "lon": -83.257024,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37814": {
+    "lat": 36.233341,
+    "lon": -83.337912,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37818": {
+    "lat": 36.185587,
+    "lon": -82.973049,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37819": {
+    "lat": 36.568255,
+    "lon": -84.205753,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37820": {
+    "lat": 36.085171,
+    "lon": -83.566057,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37821": {
+    "lat": 35.97508,
+    "lon": -83.195503,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37825": {
+    "lat": 36.415883,
+    "lon": -83.679108,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37826": {
+    "lat": 35.558226,
+    "lon": -84.589828,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37828": {
+    "lat": 36.197826,
+    "lon": -84.06886,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37829": {
+    "lat": 36.00102,
+    "lon": -84.617381,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37830": {
+    "lat": 35.966483,
+    "lon": -84.290549,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37840": {
+    "lat": 36.067831,
+    "lon": -84.369634,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37841": {
+    "lat": 36.50871,
+    "lon": -84.543828,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37843": {
+    "lat": 36.010713,
+    "lon": -83.04836,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37845": {
+    "lat": 36.103708,
+    "lon": -84.450161,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37846": {
+    "lat": 35.679251,
+    "lon": -84.481817,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37847": {
+    "lat": 36.431554,
+    "lon": -84.273435,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37848": {
+    "lat": 36.237034,
+    "lon": -83.681748,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37849": {
+    "lat": 36.05405,
+    "lon": -84.048488,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37851": {
+    "lat": 36.56559,
+    "lon": -83.792466,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37852": {
+    "lat": 36.324146,
+    "lon": -84.579513,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37853": {
+    "lat": 35.836766,
+    "lon": -83.91081,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37854": {
+    "lat": 35.886081,
+    "lon": -84.709146,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37857": {
+    "lat": 36.424289,
+    "lon": -82.9414,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37860": {
+    "lat": 36.240151,
+    "lon": -83.179967,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37861": {
+    "lat": 36.240743,
+    "lon": -83.513713,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37862": {
+    "lat": 35.736359,
+    "lon": -83.672368,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37863": {
+    "lat": 35.786377,
+    "lon": -83.563687,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37865": {
+    "lat": 35.851151,
+    "lon": -83.734888,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37866": {
+    "lat": 36.347281,
+    "lon": -83.843304,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37869": {
+    "lat": 36.514755,
+    "lon": -83.244996,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37870": {
+    "lat": 36.462895,
+    "lon": -83.833801,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37871": {
+    "lat": 36.046975,
+    "lon": -83.681338,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37872": {
+    "lat": 36.268699,
+    "lon": -84.681205,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37873": {
+    "lat": 36.52627,
+    "lon": -82.843047,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37874": {
+    "lat": 35.59833,
+    "lon": -84.456484,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37876": {
+    "lat": 35.865101,
+    "lon": -83.47897,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37877": {
+    "lat": 36.15113,
+    "lon": -83.406846,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37878": {
+    "lat": 35.596591,
+    "lon": -83.981296,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37879": {
+    "lat": 36.473348,
+    "lon": -83.513314,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37880": {
+    "lat": 35.700908,
+    "lon": -84.660106,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37881": {
+    "lat": 36.398144,
+    "lon": -83.362463,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37882": {
+    "lat": 35.604444,
+    "lon": -83.819391,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37885": {
+    "lat": 35.4989,
+    "lon": -84.137703,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37886": {
+    "lat": 35.741482,
+    "lon": -83.807486,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37887": {
+    "lat": 36.070712,
+    "lon": -84.61413,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37888": {
+    "lat": 36.329877,
+    "lon": -83.579136,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37890": {
+    "lat": 36.080387,
+    "lon": -83.293078,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37891": {
+    "lat": 36.292068,
+    "lon": -83.138109,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37892": {
+    "lat": 36.555696,
+    "lon": -84.357644,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37902": {
+    "lat": 35.962,
+    "lon": -83.919622,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37909": {
+    "lat": 35.947161,
+    "lon": -84.022715,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37912": {
+    "lat": 36.008487,
+    "lon": -83.984687,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37914": {
+    "lat": 35.983165,
+    "lon": -83.795796,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37915": {
+    "lat": 35.970813,
+    "lon": -83.900432,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37916": {
+    "lat": 35.953078,
+    "lon": -83.932588,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37917": {
+    "lat": 36.001581,
+    "lon": -83.91265,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37918": {
+    "lat": 36.056875,
+    "lon": -83.917352,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37919": {
+    "lat": 35.914748,
+    "lon": -84.000169,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37920": {
+    "lat": 35.911567,
+    "lon": -83.857782,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37921": {
+    "lat": 35.978277,
+    "lon": -84.001874,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37922": {
+    "lat": 35.860496,
+    "lon": -84.100535,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37923": {
+    "lat": 35.927527,
+    "lon": -84.080687,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37924": {
+    "lat": 36.02619,
+    "lon": -83.811875,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37929": {
+    "lat": 35.962404,
+    "lon": -83.915969,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37931": {
+    "lat": 35.976321,
+    "lon": -84.126349,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37932": {
+    "lat": 35.917299,
+    "lon": -84.198787,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37934": {
+    "lat": 35.87618,
+    "lon": -84.180016,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  },
+  "37938": {
+    "lat": 36.125008,
+    "lon": -83.938175,
+    "name": "Tennessee ZIP area",
+    "coordinate_source": "US Census 2024 ZCTA Gazetteer",
+    "precision": "ZCTA internal point; approximate ZIP search origin",
+    "suggested": false
+  }
+}
