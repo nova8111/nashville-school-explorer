@@ -2,7 +2,7 @@
 
 ## Source priority and vintages
 
-Official Tennessee Department of Education (TDOE) downloads are authoritative for the state's academic measures. The pipeline discovers the published data links from the TDOE Data Downloads page at refresh time. The initial source set covers 2024–25 letter grades, schoolwide TVAAS composites and enrollment, plus the latest available school accountability assessment workbook. Each metric stores the source ID and its own reporting year; a school does not have one assumed universal reporting year.
+Official Tennessee Department of Education (TDOE) downloads are authoritative for the state's academic measures. The assessment values in this version come from the 2026 suppressed school assessment workbook supplied by the user; the official workbook URL and TDOE discovery page are recorded in the source manifest. Letter grades and schoolwide TVAAS composites are from 2024–25, as is school profile enrollment. Each metric stores its source ID and its own reporting year; a school does not have one assumed universal reporting year.
 
 NCES EDGE public school point locations supply the geographic campus reference and NCES identifiers. The current endpoint represents 2023–24 CCD data. Census 2024 ZCTA Gazetteer internal points supply ZIP-area search centers. Neither source is silently presented as a TDOE academic value.
 
@@ -20,7 +20,8 @@ ZIP codes and ZCTAs are not equivalent geographic units. A ZIP may have no corre
 
 ## Metric definitions and missingness
 
-- **ELA / Math proficiency:** school-level published percentage meeting the relevant Tennessee assessment proficiency standard, where the TDOE file provides an identifiable all-students accountability field. Grade aggregation is not recomputed by this pipeline.
+- **ELA / Math proficiency:** school-level 2026 percentage meeting or exceeding expectations for the `All Students` group. When the workbook publishes an `All Grades` row, the pipeline uses that official aggregate rather than recomputing it from grade rows.
+- **Course assessments:** the 2026 workbook reports English I, English II, Algebra I, and Geometry separately. The explorer labels these as course EOC measures and uses the workbook's `All Grades` course total when present. It does not relabel them as generic grade-level ELA or Math proficiency.
 - **TVAAS composite:** official schoolwide growth level on Tennessee's 1–5 scale. This is a growth measure, not an achievement/proficiency percentage. The raw composite field and reporting year must be confirmed when source layouts change.
 - **Letter grade:** official TDOE A–F school accountability grade for the year in the workbook.
 - **Enrollment:** total student count in the 2024–25 TDOE school profile, with the source capture period preserved.
@@ -34,7 +35,7 @@ The application searches public schools in Davidson County from the NCES public 
 
 ## Validation and refresh
 
-The pipeline records each source's URL, retrieval time, year, status, and parsed record count. It writes JSON through temporary files and checks required names, IDs, and geographic bounds before publishing. A source layout it cannot interpret is an explicit pipeline issue, not a reason to fabricate or silently substitute data. The quality report counts discovered/downloaded sources, campus coverage, metric coverage, unmatched rows, ambiguous matches, and critical failures.
+The pipeline records each source's URL, retrieval time, year, status, and parsed record count. It writes JSON through temporary files and checks required names, IDs, and geographic bounds before publishing. A source layout it cannot interpret is an explicit pipeline issue, not a reason to fabricate or silently substitute data. The quality report counts discovered and loaded sources (distinguishing downloads from cached files in the manifest), campus coverage, metric coverage, unmatched rows, ambiguous matches, and critical failures.
 
 Review the source workbook headers and quality report after each annual update. TDOE can change fields and accountability methods. Historical comparisons should not be presented across a methodology break without separately documented comparability review. This version does not yet ingest historical trends.
 

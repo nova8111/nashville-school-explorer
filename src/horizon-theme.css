@@ -1,0 +1,39 @@
+/* Horizon Academies brand system */
+:root{font-family:'Lato',Arial,sans-serif;color:#111;background:#fbfaf6;--ink:#0e3d5c;--muted:#35434a;--green:#1b5e5b;--pale:#f5eddc;--line:#d9e1df;--paper:#fff;--serif:'Source Serif 4',Georgia,serif}
+body{color:#111;background:#fbfaf6}
+.app-shell{max-width:1600px}
+.topbar{border-color:#d9e1df}
+.brand{gap:12px;text-decoration:none;color:#0e3d5c;font-family:'Libre Franklin',Arial,sans-serif;letter-spacing:0}
+.horizon-logo{display:block;width:148px;height:auto;max-height:36px;object-fit:contain}
+.brand-divider{height:29px;width:1px;background:#d4a43c}
+.brand-title{font-size:14px;font-weight:700;white-space:nowrap;color:#0e3d5c}
+.data-pill,.updated-label{color:#111}
+.status-dot.ready,.map-live-dot{background:#1b5e5b}
+.search-button,.primary-action{background:#1b5e5b}
+.search-button:hover,.primary-action:hover{background:#164e4b}
+button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline-color:#d4a43c}
+.brand-mark{background:#f5eddc;color:#0e3d5c}
+.hero h1,.section-heading h2,.profile-modal h2,.compare-modal h2{color:#0e3d5c}
+.hero h1 em,.eyebrow,.modal-eyebrow{color:#1b5e5b}
+.eyebrow-line{background:#d4a43c}
+.search-panel{border-top-color:#d4a43c}
+.results-column,.map-column{border-color:#d9e1df}
+.result-count strong{color:#0e3d5c}
+.school-card:hover,.school-card.focused{border-color:#4dbcb0;box-shadow:0 3px 12px #0e3d5c12}
+.school-card h3,.empty-state b,.profile-modal h3{color:#0e3d5c}
+.school-type,.card-footer button,.empty-state a,.list-bottom a,.coverage-strip>a,.metric-source{color:#1b5e5b}
+.mini-track i{background:#1b5e5b}
+.map-topline,.map-legend{border-color:#d9e1df}
+.map-control{border-color:#d9e1df;color:#0e3d5c}
+.map-control:hover,.subtle-icon:hover{background:#f5eddc}
+.leaflet-control-attribution a{color:#1b5e5b!important}
+.origin-icon span{background:#d4a43c;box-shadow:0 0 0 6px #d4a43c44}
+.coverage-strip{border-color:#e7dbc0;background:#f5eddc}
+.coverage-icon{color:#1b5e5b}
+.footer{border-color:#d9e1df}
+.footer-brand{color:#0e3d5c}
+.profile-facts,.profile-metrics,.course-metrics{border-color:#d9e1df}
+.modal-eyebrow{color:#1b5e5b}
+.modal-close{background:#f5eddc;color:#0e3d5c}
+@media(max-width:760px){.horizon-logo{width:106px;max-height:28px}.brand{gap:8px}.brand-divider{height:24px}.brand-title{font-size:12px}.topbar{height:62px}.top-actions{gap:8px}.data-pill{font-size:9px}}
+@media(max-width:420px){.horizon-logo{width:88px}.brand-title{font-size:10px}.brand{gap:6px}.data-pill{font-size:0}.data-pill .updated-label{display:none}}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:12:29.148048+00:00",
+  "generated_at": "2026-11-02T12:10:59.779655+00:00",
   "status": "complete",
   "sources": [
     {
@@ -26,14 +26,14 @@
     },
     {
       "id": "assessment",
-      "name": "TDOE 2025 school accountability proficiency",
-      "source_url": "https://www.tn.gov/content/dam/tn/education/data/school_release_file_suppressed_2025.xlsx",
+      "name": "TDOE 2026 school assessment and EOC proficiency",
+      "source_url": "https://www.tn.gov/content/dam/tn/education/data/school_assessment_file_suppressed_2026.xlsx",
       "discovery_url": "https://www.tn.gov/education/districts/federal-programs-and-oversight/data/data-downloads.html",
-      "academic_year": "2025",
-      "retrieved_at": "2026-10-12T14:04:59.829462+00:00",
+      "academic_year": "2026",
+      "retrieved_at": "2026-11-02T11:34:42Z",
       "status": "cached",
-      "records_parsed": 3656,
-      "cached_file": "data\\cache\\assessment_2025.xlsx"
+      "records_parsed": 1783,
+      "cached_file": "data\\cache\\assessment_2026.xlsx"
     },
     {
       "id": "membership",
@@ -62,7 +62,7 @@
       "academic_year": "2024",
       "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_zcta_national.zip",
       "year": "2024",
-      "retrieved_at": "2026-10-12T14:12:49.400341+00:00",
+      "retrieved_at": "2026-11-02T12:11:51.896247+00:00",
       "records": 385,
       "status": "cached"
     }

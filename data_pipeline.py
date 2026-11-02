@@ -167,6 +167,7 @@ def rows_from_file(path:Path,key:str,source_id:str,year:str)->list[dict[str,Any]
                 for field in fields:
                     row[field]=value
                     row.setdefault('_valid_tests',{})[field]=r[valid_tests_col] if valid_tests_col else None
+                    row.setdefault('_grade_by_field',{})[field]=str(r[grade_data_col]).strip() if grade_data_col and pd.notna(r[grade_data_col]) else ''
             rows.append(row)
     if key=='assessment':
         buckets={}
@@ -174,18 +175,23 @@ def rows_from_file(path:Path,key:str,source_id:str,year:str)->list[dict[str,Any]
             for field in ('ela_proficiency','math_proficiency','ela_grade_9','ela_grade_10','eoc_english_i','eoc_english_ii','eoc_algebra_i','eoc_geometry'):
                 if field in row:
                     key_tuple=(row['state_school_id'],row.get('lea_id'),row.get('name'))
-                    buckets.setdefault((key_tuple,field),[]).append((row[field],parse_number(row.get('_valid_tests',{}).get(field))))
+                    buckets.setdefault((key_tuple,field),[]).append((row[field],parse_number(row.get('_valid_tests',{}).get(field)),row.get('_grade_by_field',{}).get(field,'')))
         collapsed={}
         for ((sid,lea,name),field),items in buckets.items():
-            statuses=[m['status'] for m,_ in items]
-            if len(items)==1:
+            # The workbook publishes explicit all-grade totals alongside grade rows.
+            # Prefer that source aggregate; a suppressed subgroup must not erase it.
+            all_grades=[item for item in items if re.sub(r'[^a-z0-9]','',item[2].casefold()) in {'allgrades','all'}]
+            if all_grades:
+                combined=all_grades[0][0]
+            elif len(items)==1:
                 combined=items[0][0]
-            elif any(m['value'] is None or count is None or count<=0 for m,count in items):
+            elif any(m['value'] is None or count is None or count<=0 for m,count,_ in items):
+                statuses=[m['status'] for m,_,_ in items]
                 status='suppressed' if 'suppressed' in statuses else 'not_reported'
                 combined={'value':None,'year':year,'status':status,'source_id':source_id}
             else:
-                total=sum(count for _,count in items)
-                value=sum(float(m['value'])*count for m,count in items)/total
+                total=sum(count for _,count,_ in items)
+                value=sum(float(m['value'])*count for m,count,_ in items)/total
                 combined={'value':round(value,1),'year':year,'status':'reported','source_id':source_id}
             out=collapsed.setdefault((sid,lea,name),{'state_school_id':sid,'lea_id':lea,'name':name,'source_id':source_id})
             out[field]=combined
@@ -313,7 +319,7 @@ def build(refresh:bool=True)->dict[str,Any]:
     id_counts=pd.Series([s['id'] for s in schools]).value_counts() if schools else pd.Series(dtype=int)
     duplicates=sorted(id_counts[id_counts>1].index.tolist())
     if duplicates:problems.append(f'Duplicate canonical school identifiers: {duplicates}')
-    quality={'generated_at':manifest['generated_at'],'source_files_discovered':sum(bool(x.get('source_url') and x.get('source_url')!=TDOE_PAGE) for x in manifest['sources']),'source_files_successfully_downloaded':sum(x.get('status') in {'downloaded','cached'} for x in manifest['sources']),'latest_academic_year_by_dataset':{x['id']:x.get('academic_year') for x in manifest['sources']},'total_schools_discovered':len(nces),'total_schools_included':len(schools),'total_schools_excluded':max(0,len(nces)-len(schools)),'schools_missing_coordinates':sum(not s['location']['verified'] for s in schools),'schools_missing_grade_span':sum(s['grades']['min'] is None for s in schools),'schools_missing_academic_metrics':sum(all(m['value'] is None for m in s['academic_metrics'].values()) for s in schools),'duplicate_identifiers':duplicates,'unmatched_source_records':unmatched,'out_of_scope_source_records':out_of_scope,'ambiguous_school_matches':ambiguous,'verified_geocode_percentage':round(100*sum(s['location']['verified'] for s in schools)/len(schools),1) if schools else None,'valid_source_reference_percentage':100 if schools else None,'critical_validation_failures':problems,'metric_coverage':{k:sum(m['value'] is not None and m['status']=='reported' for m in (s['academic_metrics'][k] for s in schools)) for k in ['ela_proficiency','math_proficiency','ela_grade_9','ela_grade_10','eoc_english_i','eoc_english_ii','eoc_algebra_i','eoc_geometry','tvaas_growth_score','letter_grade','graduation_rate','enrollment']}}
+    quality={'generated_at':manifest['generated_at'],'source_files_discovered':sum(bool(x.get('source_url') and x.get('source_url')!=TDOE_PAGE) for x in manifest['sources']),'source_files_loaded':sum(x.get('status') in {'downloaded','cached'} for x in manifest['sources']),'latest_academic_year_by_dataset':{x['id']:x.get('academic_year') for x in manifest['sources']},'total_schools_discovered':len(nces),'total_schools_included':len(schools),'total_schools_excluded':max(0,len(nces)-len(schools)),'schools_missing_coordinates':sum(not s['location']['verified'] for s in schools),'schools_missing_grade_span':sum(s['grades']['min'] is None for s in schools),'schools_missing_academic_metrics':sum(all(m['value'] is None for m in s['academic_metrics'].values()) for s in schools),'duplicate_identifiers':duplicates,'unmatched_source_records':unmatched,'out_of_scope_source_records':out_of_scope,'ambiguous_school_matches':ambiguous,'verified_geocode_percentage':round(100*sum(s['location']['verified'] for s in schools)/len(schools),1) if schools else None,'valid_source_reference_percentage':100 if schools else None,'critical_validation_failures':problems,'metric_coverage':{k:sum(m['value'] is not None and m['status']=='reported' for m in (s['academic_metrics'][k] for s in schools)) for k in ['ela_proficiency','math_proficiency','ela_grade_9','ela_grade_10','eoc_english_i','eoc_english_ii','eoc_algebra_i','eoc_geometry','tvaas_growth_score','letter_grade','graduation_rate','enrollment']}}
     if not schools: manifest['status']='no_verified_school_records'
     elif problems: manifest['status']='partial'
     else:manifest['status']='complete'
