@@ -19,7 +19,7 @@ TDOE_PAGE='https://www.tn.gov/education/districts/federal-programs-and-oversight
 SOURCES={
  'letter_grade':{'label':'TDOE 2024-25 School Letter Grades','pattern':r'2024-25_A-F_Letter_Grade_File\.xlsx','year':'2024-25'},
  'tvaas':{'label':'TDOE 2024-25 Schoolwide TVAAS Composite','pattern':r'2025_tvaas_school_composite\.xlsx','year':'2024-25'},
- 'assessment':{'label':'TDOE 2025 school accountability proficiency','pattern':r'school_release_file_suppressed_2025\.xlsx','year':'2025'},
+ 'assessment':{'label':'TDOE 2026 school assessment and EOC proficiency','pattern':r'school_assessment_file_suppressed_2026\.xlsx','year':'2026'},
  'membership':{'label':'TDOE 2024-25 School Profile (enrollment and grade span)','pattern':r'school-profile-2024-2025\.xlsx','year':'2024-25'},
 }
 NCES_URL='https://nces.ed.gov/opengis/rest/services/K12_School_Locations/EDGE_GEOCODE_PUBLICSCH_2324/MapServer/0/query'
@@ -109,7 +109,7 @@ def rows_from_file(path:Path,key:str,source_id:str,year:str)->list[dict[str,Any]
         leacol=next((c for c in cols if re.sub(r'[^a-z]','',str(c).lower()) in {'system','districtnumber','districtno'}),None)
         if key=='letter_grade': valcol=next((c for c in cols if re.search(r'(letter grade|school grade|final grade|lg_grade)',str(c),re.I)),None)
         elif key=='tvaas': valcol=next((c for c in cols if re.search(r'(overall|composite)',str(c),re.I) and 'school' not in str(c).lower()),None)
-        elif key=='assessment': valcol=next((c for c in cols if str(c).lower()=='pct_met_exceeded'),None)
+        elif key=='assessment': valcol=next((c for c in cols if re.sub(r'[^a-z0-9]','',str(c).lower()) in {'pctmetexceeded','percentmetexceeded','pctmeetexceed'}),None)
         elif key=='membership': valcol=next((c for c in cols if str(c).strip().lower()=='total'),None)
         else: valcol=next((c for c in cols if re.search(r'(total enrollment|total membership|total students|enrollment)',str(c),re.I)),None)
         if key=='membership':
@@ -131,7 +131,9 @@ def rows_from_file(path:Path,key:str,source_id:str,year:str)->list[dict[str,Any]
                         rows.append({'state_school_id':sid,**school_meta[(lea,sid)],'source_id':source_id,'grades':{'min':lo,'max':hi,'display':f'{show(lo)}-{show(hi)}'}})
         if valcol is None: continue
         subject_col=next((c for c in cols if str(c).lower()=='subject'),None)
+        grade_data_col=next((c for c in cols if re.sub(r'[^a-z]','',str(c).lower())=='grade'),None)
         group_col=next((c for c in cols if str(c).lower()=='student_group'),None)
+        valid_tests_col=next((c for c in cols if re.sub(r'[^a-z0-9]','',str(c).lower())=='validtests'),None)
         for _,r in frame.iterrows():
             sid=normalize_state_id(r[idcol]);
             if not sid: continue
@@ -142,10 +144,52 @@ def rows_from_file(path:Path,key:str,source_id:str,year:str)->list[dict[str,Any]
             elif key=='assessment':
                 if group_col and str(r[group_col]).strip().casefold()!='all students': continue
                 subject=str(r[subject_col]).strip().casefold() if subject_col and pd.notna(r[subject_col]) else ''
-                field={'ela':'ela_proficiency','math':'math_proficiency'}.get(subject)
-                if not field: continue
-                row[field]=metric(r[valcol],year,source_id)
+                normalized_subject=re.sub(r'[^a-z0-9]','',subject)
+                course_field={
+                    'englishi':'eoc_english_i','englishieoc':'eoc_english_i',
+                    'englishii':'eoc_english_ii','englishiieoc':'eoc_english_ii',
+                    'algebrai':'eoc_algebra_i','algebraieoc':'eoc_algebra_i',
+                    'geometry':'eoc_geometry','geometryeoc':'eoc_geometry',
+                }.get(normalized_subject)
+                fields=[]
+                if normalized_subject in {'ela','hsenglish'}:
+                    fields.append('ela_proficiency')
+                if normalized_subject in {'math','hsmath'}:
+                    fields.append('math_proficiency')
+                grade_value=re.sub(r'[^a-z0-9]','',str(r[grade_data_col]).lower()) if grade_data_col and pd.notna(r[grade_data_col]) else ''
+                if normalized_subject=='ela' and grade_value in {'9','9th','grade9','grade9th'}:
+                    fields.append('ela_grade_9')
+                if normalized_subject=='ela' and grade_value in {'10','10th','grade10','grade10th'}:
+                    fields.append('ela_grade_10')
+                if course_field: fields.append(course_field)
+                if not fields: continue
+                value=metric(r[valcol],year,source_id)
+                for field in fields:
+                    row[field]=value
+                    row.setdefault('_valid_tests',{})[field]=r[valid_tests_col] if valid_tests_col else None
             rows.append(row)
+    if key=='assessment':
+        buckets={}
+        for row in rows:
+            for field in ('ela_proficiency','math_proficiency','ela_grade_9','ela_grade_10','eoc_english_i','eoc_english_ii','eoc_algebra_i','eoc_geometry'):
+                if field in row:
+                    key_tuple=(row['state_school_id'],row.get('lea_id'),row.get('name'))
+                    buckets.setdefault((key_tuple,field),[]).append((row[field],parse_number(row.get('_valid_tests',{}).get(field))))
+        collapsed={}
+        for ((sid,lea,name),field),items in buckets.items():
+            statuses=[m['status'] for m,_ in items]
+            if len(items)==1:
+                combined=items[0][0]
+            elif any(m['value'] is None or count is None or count<=0 for m,count in items):
+                status='suppressed' if 'suppressed' in statuses else 'not_reported'
+                combined={'value':None,'year':year,'status':status,'source_id':source_id}
+            else:
+                total=sum(count for _,count in items)
+                value=sum(float(m['value'])*count for m,count in items)/total
+                combined={'value':round(value,1),'year':year,'status':'reported','source_id':source_id}
+            out=collapsed.setdefault((sid,lea,name),{'state_school_id':sid,'lea_id':lea,'name':name,'source_id':source_id})
+            out[field]=combined
+        rows=list(collapsed.values())
     return rows
 
 def acquire_nces(refresh:bool=True)->tuple[list[dict[str,Any]],dict[str,Any]]:
@@ -214,6 +258,8 @@ def build(refresh:bool=True)->dict[str,Any]:
                 recs=rows_from_file(path,key,key,spec['year']);source_records[key]=recs;status='downloaded' if status=='downloaded' else 'cached';cached[key]=str(path.relative_to(ROOT))
                 if not recs: problems.append(f'{spec["label"]}: workbook parsed but no recognized school ID/metric fields were found')
             except Exception as e: problems.append(f'{spec["label"]}: workbook parse failed: {e}');status='invalid'
+        elif key=='assessment':
+            problems.append(f'{spec["label"]}: required source workbook is not available in cache')
         manifest['sources'].append({'id':key,'name':spec['label'],'source_url':url or TDOE_PAGE,'discovery_url':TDOE_PAGE,'academic_year':spec['year'],'retrieved_at':retrieved_at,'status':status,'records_parsed':len(source_records.get(key,[])),'cached_file':cached.get(key)})
     try: nces,ncesmeta=acquire_nces(refresh)
     except Exception as e: nces=[];ncesmeta={'status':'unavailable','records':0,'source_url':NCES_URL,'year':'2023-24'};problems.append(f'NCES locations unavailable: {e}')
@@ -227,7 +273,7 @@ def build(refresh:bool=True)->dict[str,Any]:
         sid=item.get('state_school_id'); ncesid=item.get('nces_id')
         key=f'TN-{item.get("lea_id") or "unknown"}-{sid}' if sid else f'NCES-{ncesid}'
         item['id']=key; item['lea_id']=item.get('lea_id') or 'unknown'
-        item['academic_metrics']={k:{'value':None,'year':None,'status':'unavailable','source_id':None} for k in ['ela_proficiency','math_proficiency','tvaas_growth_score','letter_grade','graduation_rate','enrollment']}
+        item['academic_metrics']={k:{'value':None,'year':None,'status':'unavailable','source_id':None} for k in ['ela_proficiency','math_proficiency','ela_grade_9','ela_grade_10','eoc_english_i','eoc_english_ii','eoc_algebra_i','eoc_geometry','tvaas_growth_score','letter_grade','graduation_rate','enrollment']}
         item['programs']=[];item['zoning_status']=None;merged[key]=item
     by_state={s['state_school_id']:s for s in merged.values() if s.get('state_school_id')}
     unmatched=0;out_of_scope=0;ambiguous=[]
@@ -260,14 +306,14 @@ def build(refresh:bool=True)->dict[str,Any]:
                 s['state_school_id']=row['state_school_id']
                 s['lea_id']=row.get('lea_id') or 'unknown'
                 if row.get('lea_id'):s['id']=f"TN-{row['lea_id']}-{row['state_school_id']}"
-            for field in ('ela_proficiency','math_proficiency','tvaas_growth_score','letter_grade','enrollment'):
+            for field in ('ela_proficiency','math_proficiency','ela_grade_9','ela_grade_10','eoc_english_i','eoc_english_ii','eoc_algebra_i','eoc_geometry','tvaas_growth_score','letter_grade','enrollment'):
                 if field in row:s['academic_metrics'][field]=row[field]
             if 'grades' in row:s['grades']=row['grades']
     schools=sorted(merged.values(),key=lambda x:x['name'].casefold())
     id_counts=pd.Series([s['id'] for s in schools]).value_counts() if schools else pd.Series(dtype=int)
     duplicates=sorted(id_counts[id_counts>1].index.tolist())
     if duplicates:problems.append(f'Duplicate canonical school identifiers: {duplicates}')
-    quality={'generated_at':manifest['generated_at'],'source_files_discovered':sum(bool(x.get('source_url') and x.get('source_url')!=TDOE_PAGE) for x in manifest['sources']),'source_files_successfully_downloaded':sum(x.get('status') in {'downloaded','cached'} for x in manifest['sources']),'latest_academic_year_by_dataset':{x['id']:x.get('academic_year') for x in manifest['sources']},'total_schools_discovered':len(nces),'total_schools_included':len(schools),'total_schools_excluded':max(0,len(nces)-len(schools)),'schools_missing_coordinates':sum(not s['location']['verified'] for s in schools),'schools_missing_grade_span':sum(s['grades']['min'] is None for s in schools),'schools_missing_academic_metrics':sum(all(m['value'] is None for m in s['academic_metrics'].values()) for s in schools),'duplicate_identifiers':duplicates,'unmatched_source_records':unmatched,'out_of_scope_source_records':out_of_scope,'ambiguous_school_matches':ambiguous,'verified_geocode_percentage':round(100*sum(s['location']['verified'] for s in schools)/len(schools),1) if schools else None,'valid_source_reference_percentage':100 if schools else None,'critical_validation_failures':problems,'metric_coverage':{k:sum(m['value'] is not None and m['status']=='reported' for m in (s['academic_metrics'][k] for s in schools)) for k in ['ela_proficiency','math_proficiency','tvaas_growth_score','letter_grade','graduation_rate','enrollment']}}
+    quality={'generated_at':manifest['generated_at'],'source_files_discovered':sum(bool(x.get('source_url') and x.get('source_url')!=TDOE_PAGE) for x in manifest['sources']),'source_files_successfully_downloaded':sum(x.get('status') in {'downloaded','cached'} for x in manifest['sources']),'latest_academic_year_by_dataset':{x['id']:x.get('academic_year') for x in manifest['sources']},'total_schools_discovered':len(nces),'total_schools_included':len(schools),'total_schools_excluded':max(0,len(nces)-len(schools)),'schools_missing_coordinates':sum(not s['location']['verified'] for s in schools),'schools_missing_grade_span':sum(s['grades']['min'] is None for s in schools),'schools_missing_academic_metrics':sum(all(m['value'] is None for m in s['academic_metrics'].values()) for s in schools),'duplicate_identifiers':duplicates,'unmatched_source_records':unmatched,'out_of_scope_source_records':out_of_scope,'ambiguous_school_matches':ambiguous,'verified_geocode_percentage':round(100*sum(s['location']['verified'] for s in schools)/len(schools),1) if schools else None,'valid_source_reference_percentage':100 if schools else None,'critical_validation_failures':problems,'metric_coverage':{k:sum(m['value'] is not None and m['status']=='reported' for m in (s['academic_metrics'][k] for s in schools)) for k in ['ela_proficiency','math_proficiency','ela_grade_9','ela_grade_10','eoc_english_i','eoc_english_ii','eoc_algebra_i','eoc_geometry','tvaas_growth_score','letter_grade','graduation_rate','enrollment']}}
     if not schools: manifest['status']='no_verified_school_records'
     elif problems: manifest['status']='partial'
     else:manifest['status']='complete'
@@ -278,10 +324,7 @@ def build(refresh:bool=True)->dict[str,Any]:
         except (json.JSONDecodeError,OSError): previous=[]
         if previous:
             manifest['status']='refresh_rejected_previous_data_preserved'
-            safe_write(PROCESSED/'source_manifest.json',json.dumps(manifest,indent=2,ensure_ascii=False))
-            safe_write(DATA/'source_manifest.json',json.dumps(manifest,indent=2,ensure_ascii=False))
             safe_write(DATA/'quality_report.json',json.dumps(quality,indent=2,ensure_ascii=False))
-            safe_write(PUBLIC/'source_manifest.json',json.dumps(manifest,indent=2,ensure_ascii=False))
             return {'manifest':manifest,'quality':quality}
     # Publish atomically only if the data is structurally valid; empty is valid and clearly marked.
     for s in schools:
