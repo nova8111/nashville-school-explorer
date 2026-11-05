@@ -42,11 +42,8 @@ button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-v
 .school-level-chip:hover{border-color:#1b5e5b;background:#f2f8f7}
 .school-level-chip.selected{border-color:#0e3d5c;background:#0e3d5c;color:#fff}
 .school-level-hint{grid-column:2;color:#35434a;font-size:11px}
-.school-name-overlay{position:absolute;left:0;top:0;pointer-events:none;z-index:900}
-.school-name-connectors{position:absolute;left:0;top:0;overflow:visible;pointer-events:none}
-.school-name-connectors path{fill:none;stroke-width:1.5;stroke-dasharray:3 3;stroke-linecap:round;opacity:.9}
-.school-name-label{position:absolute;display:flex;align-items:center;gap:7px;min-height:33px;box-sizing:border-box;padding:6px 9px;border:1px solid #cbd8d6;border-radius:5px;background:#fff;color:#0e3d5c;font-family:'Lato',Arial,sans-serif;font-size:12px;font-weight:700;line-height:1.25;overflow-wrap:anywhere;box-shadow:0 2px 8px #0e3d5c30}
-.school-name-label i{display:block;width:8px;height:8px;flex:0 0 8px;border-radius:50%}
+.school-name-tooltip{width:max-content;max-width:190px;white-space:normal;padding:4px 7px;border:1px solid #1b5e5b;border-radius:4px;background:#fff;color:#0e3d5c;font-family:'Lato',Arial,sans-serif;font-size:11px;font-weight:700;line-height:1.25;box-shadow:0 1px 6px #0e3d5c30}
+.leaflet-tooltip-right.school-name-tooltip:before{border-right-color:#1b5e5b}
 @media(max-width:760px){.horizon-logo{width:106px;max-height:28px}.brand{gap:8px}.brand-divider{height:24px}.brand-title{font-size:12px}.topbar{height:62px}.top-actions{gap:8px}.data-pill{font-size:9px}}
 @media(max-width:420px){.horizon-logo{width:88px}.brand-title{font-size:10px}.brand{gap:6px}.data-pill{font-size:0}.data-pill .updated-label{display:none}}
 @media(max-width:760px){.school-level-filter{grid-template-columns:1fr;gap:6px}.school-level-hint{grid-column:1}}
