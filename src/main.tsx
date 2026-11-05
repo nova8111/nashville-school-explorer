@@ -4,5 +4,6 @@ import App from './App';
 import './styles.css';
 import './horizon-theme.css';
 import 'leaflet/dist/leaflet.css';
+import './desktop.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>);
