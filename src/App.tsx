@@ -1085,6 +1085,13 @@ function App() {
                           </div>
                         </div>
                       </div>
+                      <div className="card-growth-row" title="Schoolwide academic growth on a 1–5 scale">
+                        <span>TVAAS growth</span>
+                        <b>
+                          {displayMetric(metric(s, "tvaas_growth_score"))}
+                          {metric(s, "tvaas_growth_score").status === "reported" && <small> / 5</small>}
+                        </b>
+                      </div>
                       {eocMeasures.some(
                         ([, key]) => metric(s, key).status !== "unavailable",
                       ) && (
@@ -1316,9 +1323,15 @@ function App() {
                         opacity={0.98}
                         className="school-name-tooltip"
                       >
-                        {group.length > 1
-                          ? `${group.length} schools · select to view`
-                          : s.name}
+                        {group.map((school) => (
+                          <div className="map-school-label" key={school.id}>
+                            <span className="map-school-name">{school.name}</span>
+                            <span className="map-school-scores">
+                              TVAAS {displayMetric(metric(school, "tvaas_growth_score"))}
+                              {" · "}Grade {displayMetric(metric(school, "letter_grade"))}
+                            </span>
+                          </div>
+                        ))}
                       </Tooltip>
                     )}
                   </Marker>

@@ -249,6 +249,38 @@
   gap: 15px;
   grid-template-columns: 40px 1fr 1fr;
 }
+.card-growth-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background: #f0f6f3;
+  color: #1b5e5b;
+  font-size: 12px;
+}
+.card-growth-row b { font-size: 14px; }
+.card-growth-row small { font-size: 11px; font-weight: 400; }
+.school-name-tooltip {
+  max-width: 180px;
+  padding: 4px 6px;
+  font-size: 10px;
+  line-height: 1.25;
+}
+.map-school-name, .map-school-scores { display: block; }
+.map-school-scores {
+  margin-top: 2px;
+  color: #35434a;
+  font-size: 9px;
+  font-weight: 400;
+}
+.map-school-label + .map-school-label {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid #d9e1df;
+}
 .grade-box {
   height: 42px;
 }
