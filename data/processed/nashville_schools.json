@@ -74,8 +74,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -176,8 +176,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -278,8 +278,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -381,7 +381,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -482,8 +482,8 @@
         "source_id": "assessment"
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -584,8 +584,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -686,8 +686,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -717,8 +717,8 @@
     "nces_id": "470318010427",
     "nces_lea_id": "4703180",
     "name": "Aventura Community School",
-    "state_school_id": null,
-    "lea_id": "unknown",
+    "state_school_id": "8015",
+    "lea_id": "190",
     "address": {
       "street": "3010 Tuggle AVE",
       "city": "Nashville",
@@ -726,9 +726,9 @@
       "zip": "37211"
     },
     "grades": {
-      "min": null,
-      "max": null,
-      "display": "Grade span unavailable"
+      "min": 0,
+      "max": 3,
+      "display": "K-3"
     },
     "location": {
       "lat": 36.10712682742292,
@@ -737,19 +737,19 @@
       "verified": true
     },
     "type": "Public",
-    "id": "NCES-470318010427",
+    "id": "TN-190-8015",
     "academic_metrics": {
       "ela_proficiency": {
-        "value": null,
-        "year": null,
-        "status": "unavailable",
-        "source_id": null
+        "value": 38.3,
+        "year": "2026",
+        "status": "reported",
+        "source_id": "assessment"
       },
       "math_proficiency": {
-        "value": null,
-        "year": null,
-        "status": "unavailable",
-        "source_id": null
+        "value": 20.9,
+        "year": "2026",
+        "status": "reported",
+        "source_id": "assessment"
       },
       "ela_grade_9": {
         "value": null,
@@ -788,10 +788,10 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": null,
-        "year": null,
-        "status": "unavailable",
-        "source_id": null
+        "value": 3.0,
+        "year": "2025-26",
+        "status": "reported",
+        "source_id": "tvaas"
       },
       "letter_grade": {
         "value": null,
@@ -806,10 +806,10 @@
         "source_id": null
       },
       "enrollment": {
-        "value": null,
-        "year": null,
-        "status": "unavailable",
-        "source_id": null
+        "value": 284.0,
+        "year": "2024-25",
+        "status": "reported",
+        "source_id": "membership"
       }
     },
     "programs": [],
@@ -890,8 +890,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -993,7 +993,7 @@
       },
       "tvaas_growth_score": {
         "value": 4.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -1299,7 +1299,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -1400,8 +1400,8 @@
         "source_id": "assessment"
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -1502,8 +1502,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -1707,7 +1707,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -1809,7 +1809,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -1910,8 +1910,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -2012,8 +2012,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -2114,10 +2114,10 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": null,
-        "year": null,
-        "status": "unavailable",
-        "source_id": null
+        "value": 3.0,
+        "year": "2025-26",
+        "status": "reported",
+        "source_id": "tvaas"
       },
       "letter_grade": {
         "value": null,
@@ -2216,8 +2216,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -2318,8 +2318,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -2420,8 +2420,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -2522,8 +2522,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -2624,8 +2624,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 4.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -2726,8 +2726,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -2829,7 +2829,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -2931,7 +2931,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -3033,7 +3033,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -3134,8 +3134,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -3237,7 +3237,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -3339,7 +3339,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -3440,8 +3440,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -3543,7 +3543,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -3644,8 +3644,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -3747,7 +3747,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -3848,8 +3848,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -3951,7 +3951,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -4053,7 +4053,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -4154,8 +4154,8 @@
         "source_id": "assessment"
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -4256,8 +4256,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -4358,8 +4358,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -4461,7 +4461,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -4562,8 +4562,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 4.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -4664,8 +4664,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -4767,7 +4767,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -4868,8 +4868,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 4.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -4970,8 +4970,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -5072,8 +5072,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -5276,8 +5276,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -5378,8 +5378,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -5480,8 +5480,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 4.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -5583,7 +5583,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -5684,8 +5684,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -5787,7 +5787,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -5888,8 +5888,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -5991,7 +5991,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -6194,8 +6194,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -6297,7 +6297,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -6399,7 +6399,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -6501,7 +6501,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -6603,7 +6603,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -6705,7 +6705,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -6806,8 +6806,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 4.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -6908,8 +6908,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -7112,8 +7112,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 4.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -7215,7 +7215,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -7316,8 +7316,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -7419,7 +7419,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -7520,8 +7520,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -7623,7 +7623,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -7724,8 +7724,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -7826,8 +7826,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -7928,8 +7928,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 4.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -8031,7 +8031,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -8133,7 +8133,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -8235,7 +8235,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -8336,10 +8336,10 @@
         "source_id": "assessment"
       },
       "tvaas_growth_score": {
-        "value": null,
-        "year": null,
-        "status": "unavailable",
-        "source_id": null
+        "value": 3.0,
+        "year": "2025-26",
+        "status": "reported",
+        "source_id": "tvaas"
       },
       "letter_grade": {
         "value": "C",
@@ -8439,7 +8439,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -8949,7 +8949,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -9051,7 +9051,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -9153,7 +9153,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -9254,8 +9254,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -9356,8 +9356,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -9459,7 +9459,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -9663,7 +9663,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -9764,8 +9764,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -9867,7 +9867,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -9968,8 +9968,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -10070,8 +10070,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -10172,8 +10172,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -10377,7 +10377,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -10479,7 +10479,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -10581,7 +10581,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -10683,7 +10683,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -10784,8 +10784,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -10887,7 +10887,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -10989,7 +10989,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -11091,7 +11091,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -11193,7 +11193,7 @@
       },
       "tvaas_growth_score": {
         "value": 4.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -11294,8 +11294,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -11396,8 +11396,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -11499,7 +11499,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -11600,8 +11600,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -11906,8 +11906,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -12008,8 +12008,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -12110,8 +12110,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -12213,7 +12213,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -12315,7 +12315,7 @@
       },
       "tvaas_growth_score": {
         "value": 2.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -12416,8 +12416,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -12518,8 +12518,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -12620,8 +12620,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -12722,8 +12722,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -12825,7 +12825,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -12926,8 +12926,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 4.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -13029,7 +13029,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -13130,8 +13130,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -13437,7 +13437,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -13538,8 +13538,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -13640,8 +13640,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -13844,8 +13844,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -13946,8 +13946,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -14048,8 +14048,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -14150,8 +14150,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -14252,8 +14252,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -14355,7 +14355,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -14457,7 +14457,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -14558,8 +14558,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 1.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -14660,8 +14660,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 3.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -14762,8 +14762,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -14966,8 +14966,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -15680,8 +15680,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -15782,8 +15782,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -15884,8 +15884,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -16089,7 +16089,7 @@
       },
       "tvaas_growth_score": {
         "value": 3.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -16191,7 +16191,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -16293,7 +16293,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -16394,8 +16394,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -16497,7 +16497,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -16599,7 +16599,7 @@
       },
       "tvaas_growth_score": {
         "value": 5.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -16803,7 +16803,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -16905,7 +16905,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -17006,8 +17006,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 1.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -17210,8 +17210,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 4.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -17312,8 +17312,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 3.0,
-        "year": "2024-25",
+        "value": 2.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -17415,7 +17415,7 @@
       },
       "tvaas_growth_score": {
         "value": 1.0,
-        "year": "2024-25",
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -17516,8 +17516,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 2.0,
-        "year": "2024-25",
+        "value": 5.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },
@@ -17618,8 +17618,8 @@
         "source_id": null
       },
       "tvaas_growth_score": {
-        "value": 5.0,
-        "year": "2024-25",
+        "value": 4.0,
+        "year": "2025-26",
         "status": "reported",
         "source_id": "tvaas"
       },

@@ -2,7 +2,7 @@
 
 ## Source priority and vintages
 
-Official Tennessee Department of Education (TDOE) downloads are authoritative for the state's academic measures. The assessment values in this version come from the 2026 suppressed school assessment workbook supplied by the user; the official workbook URL and TDOE discovery page are recorded in the source manifest. Letter grades and schoolwide TVAAS composites are from 2024–25, as is school profile enrollment. Each metric stores its source ID and its own reporting year; a school does not have one assumed universal reporting year.
+Official Tennessee Department of Education (TDOE) downloads and official state accountability portals are authoritative for the state's academic measures. The assessment values in this version come from the 2026 suppressed school assessment workbook; the official workbook URL and discovery page are recorded in the source manifest. Schoolwide TVAAS composites are from the 2025–26 release (launched November 12, 2026 via the state TVAAS portal and Tennessee Firefly's statewide compilation). Letter grades are from 2024–25 (the state releases 2025–26 letter grades with the state report card in December), as is school profile enrollment. Each metric stores its source ID and its own reporting year; a school does not have one assumed universal reporting year.
 
 NCES EDGE public school point locations supply the geographic campus reference and NCES identifiers. The current endpoint represents 2023–24 CCD data. Census 2024 ZCTA Gazetteer internal points supply ZIP-area search centers. Neither source is silently presented as a TDOE academic value.
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:10:59.779655+00:00",
+  "generated_at": "2026-11-15T11:15:44.095027+00:00",
   "status": "complete",
   "sources": [
     {
@@ -15,14 +15,14 @@
     },
     {
       "id": "tvaas",
-      "name": "TDOE 2024-25 Schoolwide TVAAS Composite",
-      "source_url": "https://www.tn.gov/content/dam/tn/education/data/2025_tvaas_school_composite.xlsx",
-      "discovery_url": "https://www.tn.gov/education/districts/federal-programs-and-oversight/data/data-downloads.html",
-      "academic_year": "2024-25",
-      "retrieved_at": "2026-10-12T14:04:58.205121+00:00",
+      "name": "TDOE 2025-26 Schoolwide TVAAS Composite",
+      "source_url": "https://tnfirefly.com/data/tvaas-2026.html",
+      "discovery_url": "https://tvaas.sas.com/e/composites.html?as=u&w4=100&ww=176969",
+      "academic_year": "2025-26",
+      "retrieved_at": "2026-11-15T11:07:48.651425+00:00",
       "status": "cached",
-      "records_parsed": 1733,
-      "cached_file": "data\\cache\\tvaas_2024-25.xlsx"
+      "records_parsed": 1742,
+      "cached_file": "data\\cache\\tvaas_2025-26.xlsx"
     },
     {
       "id": "assessment",
@@ -62,7 +62,7 @@
       "academic_year": "2024",
       "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_zcta_national.zip",
       "year": "2024",
-      "retrieved_at": "2026-11-02T12:11:51.896247+00:00",
+      "retrieved_at": "2026-11-15T11:16:12.245875+00:00",
       "records": 385,
       "status": "cached"
     }

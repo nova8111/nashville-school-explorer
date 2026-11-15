@@ -17,7 +17,7 @@ The interface and refresh pipeline are implemented. A real source refresh has be
 
 | Source | Dataset | Reporting vintage | Purpose |
 | --- | --- | --- | --- |
-| [TDOE Data Downloads](https://www.tn.gov/education/districts/federal-programs-and-oversight/data/data-downloads.html) | School letter grades, school accountability proficiency, schoolwide TVAAS composite, school profile | 2024–25/2025 where published | Academic metrics, enrollment, and grade spans |
+| [TDOE Data Downloads / TVAAS Portal](https://tvaas.sas.com/e/composites.html) | TVAAS composite (2025–26), assessment proficiency (2026), school letter grades (2024–25), school profile (2024–25) | 2024–25 to 2026 | Academic metrics, enrollment, and grade spans |
 | [NCES EDGE public school locations](https://nces.ed.gov/opengis/rest/services/K12_School_Locations/EDGE_GEOCODE_PUBLICSCH_2324/MapServer/0) | Public school campus points, 2023–24 CCD | 2023–24 | School names, campus points, NCES IDs |
 | [U.S. Census Gazetteer](https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/) | 2024 ZCTA Gazetteer | 2024 | Census ZCTA centroids for Nashville ZIP search centers |
 

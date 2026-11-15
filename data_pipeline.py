@@ -16,9 +16,11 @@ import pandas as pd
 ROOT=Path(__file__).resolve().parent
 DATA=ROOT/'data'; RAW=DATA/'raw'; CACHE=DATA/'cache'; PROCESSED=DATA/'processed'; PUBLIC=ROOT/'public'/'data'
 TDOE_PAGE='https://www.tn.gov/education/districts/federal-programs-and-oversight/data/data-downloads.html'
+FIREFLY_TVAAS_URL='https://tnfirefly.com/data/tvaas-2026.html'
+TVAAS_PORTAL_URL='https://tvaas.sas.com/e/composites.html?as=u&w4=100&ww=176969'
 SOURCES={
  'letter_grade':{'label':'TDOE 2024-25 School Letter Grades','pattern':r'2024-25_A-F_Letter_Grade_File\.xlsx','year':'2024-25'},
- 'tvaas':{'label':'TDOE 2024-25 Schoolwide TVAAS Composite','pattern':r'2025_tvaas_school_composite\.xlsx','year':'2024-25'},
+ 'tvaas':{'label':'TDOE 2025-26 Schoolwide TVAAS Composite','pattern':r'(?:2026|2025-?26)_tvaas_school_composite\.xlsx','year':'2025-26'},
  'assessment':{'label':'TDOE 2026 school assessment and EOC proficiency','pattern':r'school_assessment_file_suppressed_2026\.xlsx','year':'2026'},
  'membership':{'label':'TDOE 2024-25 School Profile (enrollment and grade span)','pattern':r'school-profile-2024-2025\.xlsx','year':'2024-25'},
 }
@@ -44,6 +46,35 @@ def source_links(html:str)->dict[str,str]:
             href=urljoin(TDOE_PAGE,a['href'])
             if re.search(spec['pattern'],href,re.I): out[key]=href; break
     return out
+
+def fetch_firefly_tvaas()->pd.DataFrame:
+    headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+    r=requests.get(FIREFLY_TVAAS_URL,headers=headers,timeout=30)
+    r.raise_for_status()
+    soup=BeautifulSoup(r.text,'html.parser')
+    payload=None
+    for s in soup.find_all('script'):
+        t=s.get_text()
+        if 'const DATA' in t:
+            m=re.search(r'const DATA\s*=\s*(\{.+?\});\s*(?:const|let|var|\n)',t,re.DOTALL)
+            if m: payload=json.loads(m.group(1)); break
+    if not payload or 'schools' not in payload: raise RuntimeError('Could not extract TVAAS dataset from Firefly portal')
+    rows=[]
+    for s in payload['schools']:
+        L=s.get('L') or [None]*6
+        rows.append({
+            'District Number':s.get('sys'),
+            'School Number':s.get('sch'),
+            'District Name':s.get('d'),
+            'School Name':s.get('n'),
+            'Overall Composite':L[0],
+            'Literacy and Numeracy Composite':L[1] if len(L)>1 else None,
+            'Literacy Composite':L[2] if len(L)>2 else None,
+            'Numeracy Composite':L[3] if len(L)>3 else None,
+            'Science Composite':L[4] if len(L)>4 else None,
+            'Social Studies Composite':L[5] if len(L)>5 else None,
+        })
+    return pd.DataFrame(rows)
 
 def normalize_state_id(value:Any)->str|None:
     if value is None or pd.isna(value): return None
@@ -255,18 +286,34 @@ def build(refresh:bool=True)->dict[str,Any]:
             try: previous=json.loads(sidecar.read_text(encoding='utf-8'))
             except (json.JSONDecodeError,OSError): previous={}
         url=links.get(key) or previous.get('source_url'); retrieved_at=previous.get('retrieved_at'); status='unavailable'
-        if url and refresh:
+        if key=='tvaas' and not links.get(key):
+            if (refresh or not path.exists()):
+                try:
+                    df_t=fetch_firefly_tvaas()
+                    path.parent.mkdir(parents=True,exist_ok=True)
+                    df_t.to_excel(path,index=False)
+                    (RAW/'2026_tvaas_school_composite.xlsx').parent.mkdir(parents=True,exist_ok=True)
+                    df_t.to_excel(RAW/'2026_tvaas_school_composite.xlsx',index=False)
+                    url=FIREFLY_TVAAS_URL
+                    status='downloaded'
+                    retrieved_at=datetime.now(timezone.utc).isoformat()
+                    safe_write(sidecar,json.dumps({'source_url':url,'discovery_url':TVAAS_PORTAL_URL,'retrieved_at':retrieved_at,'academic_year':spec['year']}))
+                except Exception as e:
+                    if path.exists(): status='cached'
+                    else: problems.append(f'{spec["label"]}: {e}')
+        elif url and refresh and str(url).endswith(('.xlsx','.xls','.csv')):
             try:
-                r=get(url);raw=RAW/(url.rsplit('/',1)[-1].split('?')[0]);raw.write_bytes(r.content);path.write_bytes(r.content);status='downloaded';retrieved_at=datetime.now(timezone.utc).isoformat();safe_write(sidecar,json.dumps({'source_url':url,'retrieved_at':retrieved_at}))
+                r=get(url);raw=RAW/(url.rsplit('/',1)[-1].split('?')[0]);raw.write_bytes(r.content);path.write_bytes(r.content);status='downloaded';retrieved_at=datetime.now(timezone.utc).isoformat();safe_write(sidecar,json.dumps({'source_url':url,'discovery_url':previous.get('discovery_url') or TDOE_PAGE,'retrieved_at':retrieved_at,'academic_year':spec['year']}))
             except Exception as e: problems.append(f'{spec["label"]}: {e}')
         if path.exists():
             try:
                 recs=rows_from_file(path,key,key,spec['year']);source_records[key]=recs;status='downloaded' if status=='downloaded' else 'cached';cached[key]=str(path.relative_to(ROOT))
                 if not recs: problems.append(f'{spec["label"]}: workbook parsed but no recognized school ID/metric fields were found')
             except Exception as e: problems.append(f'{spec["label"]}: workbook parse failed: {e}');status='invalid'
-        elif key=='assessment':
+        elif key in {'assessment','tvaas'}:
             problems.append(f'{spec["label"]}: required source workbook is not available in cache')
-        manifest['sources'].append({'id':key,'name':spec['label'],'source_url':url or TDOE_PAGE,'discovery_url':TDOE_PAGE,'academic_year':spec['year'],'retrieved_at':retrieved_at,'status':status,'records_parsed':len(source_records.get(key,[])),'cached_file':cached.get(key)})
+        discovery_url=TVAAS_PORTAL_URL if key=='tvaas' else (previous.get('discovery_url') or TDOE_PAGE)
+        manifest['sources'].append({'id':key,'name':spec['label'],'source_url':url or discovery_url,'discovery_url':discovery_url,'academic_year':spec['year'],'retrieved_at':retrieved_at,'status':status,'records_parsed':len(source_records.get(key,[])),'cached_file':cached.get(key)})
     try: nces,ncesmeta=acquire_nces(refresh)
     except Exception as e: nces=[];ncesmeta={'status':'unavailable','records':0,'source_url':NCES_URL,'year':'2023-24'};problems.append(f'NCES locations unavailable: {e}')
     manifest['sources'].append({'id':'nces_locations','name':'NCES EDGE 2023-24 Public School Locations','academic_year':ncesmeta['year'],'source_url':NCES_URL,**ncesmeta})
@@ -296,6 +343,8 @@ def build(refresh:bool=True)->dict[str,Any]:
                 # Ignore punctuation and case, but never use approximate/fuzzy matches.
                 name_key=re.sub(r'[^a-z0-9]','',row['name'].casefold()) if row.get('name') else ''
                 possible=name_index.get(name_key,[])
+                if not possible and name_key.endswith('school'):
+                    possible=name_index.get(name_key[:-6],[])
                 # TDOE system 190 (Metro Nashville) maps to NCES LEA 4703180.
                 if row.get('lea_id')=='190':
                     nces_candidates=[x for x in possible if x.get('nces_lea_id')=='4703180']
@@ -312,6 +361,7 @@ def build(refresh:bool=True)->dict[str,Any]:
                 s['state_school_id']=row['state_school_id']
                 s['lea_id']=row.get('lea_id') or 'unknown'
                 if row.get('lea_id'):s['id']=f"TN-{row['lea_id']}-{row['state_school_id']}"
+            by_state[row['state_school_id']]=s
             for field in ('ela_proficiency','math_proficiency','ela_grade_9','ela_grade_10','eoc_english_i','eoc_english_ii','eoc_algebra_i','eoc_geometry','tvaas_growth_score','letter_grade','enrollment'):
                 if field in row:s['academic_metrics'][field]=row[field]
             if 'grades' in row:s['grades']=row['grades']
